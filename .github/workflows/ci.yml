@@ -55,5 +55,5 @@ jobs:
           path: .
       - name: Run Tests
         run: |
-          chmod +x testsidemade
-          ./testsidemade
+          chmod +x build/testsidemade
+          ./build/testsidemade
