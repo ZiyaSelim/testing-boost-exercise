@@ -9,7 +9,7 @@ BOOST_AUTO_TEST_SUITE(MatrixIOTests)
 
 BOOST_AUTO_TEST_CASE(MatrixIOOpenData)
 {
-  std::string filename     = "data/m3.csv";
+  std::string filename     = "../data/m3.csv";
   int         expectedSize = 3;
 
   MatrixXd expected(3, 3);
